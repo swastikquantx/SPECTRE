@@ -1,0 +1,13 @@
+{
+  "id": "custom_api_tool",
+  "name": "Custom Free API Tool",
+  "description": "Any free API wrapped as agent",
+  "capabilities": [
+    "research"
+  ],
+  "cost_tier": "free_tier",
+  "adapter_class": "adapters.mcp_adapter.MCPAdapter",
+  "config": {
+    "endpoint": "https://api.example.com"
+  }
+}

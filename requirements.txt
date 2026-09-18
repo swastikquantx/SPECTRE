@@ -1,0 +1,21 @@
+
+fastapi
+uvicorn[standard]
+aiohttp
+pydantic
+python-multipart
+# Local free agents
+transformers
+torch --index-url https://download.pytorch.org/whl/cpu
+ollama
+# Orchestration frameworks (all free)
+langgraph
+crewai
+pyautogen
+smolagents
+# Tools
+playwright
+GitPython
+mcp
+openai # only for optional paid tier
+huggingface_hub
